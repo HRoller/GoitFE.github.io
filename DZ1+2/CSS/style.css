@@ -1,0 +1,46 @@
+
+
+    .A4
+      {
+        width: 210mm;   /* ширина A4*/
+        height: 297mm; /* высота A4*/
+        padding: 15mm 15mm 15mm 15mm; /* внутренние отступы A4- верх, право, низ, лево */
+        margin: 50px auto;  /* выравнивание по центру */
+        box-shadow: 10px 10px 20px black; /* небольшая тень для объемности */
+        background-color: white;  /* цвет фона в блоке Листа А4*/
+        font-family:  "Times New Roman"; /* нужный шрифт */
+        font-size: 14pt;
+        line-height: 1.5
+      }
+
+
+
+    hr { /* горизонтальная линия */
+      	border: none; /* Убираем границу */
+      	background-color: grey; /* Цвет линии */
+      	color: grey; /* Цвет линии для IE6-7 */
+      	height: 1px; /* Толщина линии */
+      }
+
+
+
+    ul {
+        padding: 0; /* Убираем поля */
+        margin-left: 60px; /* Отступ слева */
+        }
+
+
+	body {
+        background-color: gray;
+        } /* общий фон сайта */
+
+
+    p  {
+        text-indent: 35px;
+        text-align: left;
+        }
+
+    .centr  {
+        text-indent: 0px;
+        text-align:  center;
+      }
