@@ -1,0 +1,88 @@
+body {
+            background-color: #f9f9f9;
+            } /* общий фон сайта */
+.A4
+      {
+        width: 1060px;   /* ширина сайта*/
+        height: 950px; /* высота сайта*/
+        padding: 50px 45px 50px 45px; /* внутренние отступы сайта верх, право, низ, лево */
+        margin: 0px auto 0px auto;  /* выравнивание по центру */
+        box-shadow: 0px 0px 10px gray; /* небольшая тень для объемности */
+        background-color: white;  /* цвет фона в блоке Листа А4*/
+      }
+.shadow  /* тень вокруг картинки */
+      {
+      box-shadow: 0px 0px 10px gray;
+      float: right; /* Выравнивание по правому краю */
+      margin: 0 0 0 0; /* Отступы вокруг фотографии */
+      }
+/* ______________________________________________________________________________________________ */
+.horiz_menu {    /* блок верхнего горизонтального меню */
+    display: table;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 0px;
+}
+.horiz_jach {   /* метод отображения - таблица в строку, ширина и цвет ячейки верхнего меню */
+    display: table-cell;
+    width: 75px;
+    background: #5b5b5b;
+}
+.h_a {       /* ТЕКСТ/контент в ячейке верхнего меню */
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 1px;
+    text-align: center;
+}
+.horiz_jach .h_a:hover {   /* Цвет ячейки и текста при наведении мышки */
+    background-color: #454545;
+    color: white;
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+}
+/* ______________________________________________________________________________________________ */
+
+.vert_menu {
+    float: left;
+    display: table;
+    width: 240px;
+
+    padding: 0px;
+}
+
+.vert_jach {
+    display: table;
+    width: 240px;
+    border: 1px solid #c8c8c8;
+    background: #ffffff;
+}
+
+.v_a {
+    display: block;
+    color: black;
+    font size="14";
+    text-decoration: none;
+    text-align: left;
+    padding: 10px 1px;
+    padding-left: 30px;
+
+}
+
+.vert_jach .v_a:hover {
+    background-color: #f9f9f9;
+    color: black;
+    border: 1px solid #c8c8c8;
+    padding-left: 50px;
+}
+/* ______________________________________________________________________________________________ */
+
+    .centr  {
+        text-indent: 0px;
+        text-align:  center;
+      }
+    .left {
+        text-indent: 0px;
+        text-allign: left;
+    }
+/* _____________________________________E_N_D___________________________________________ */
