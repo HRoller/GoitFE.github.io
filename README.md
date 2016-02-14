@@ -1,5 +1,9 @@
+<sltyle>
+P {text-sise:10pt}
+</slyle>
+
 Мои Домашние задания по http://goit.ua/
-<br>
+<p>
 Консоль:
 <p>
 git clone https:    // 0) github.com/TurovetsAleksandr/TurovetsAleksandr.github.io // Копирую себе Репозиторий 
