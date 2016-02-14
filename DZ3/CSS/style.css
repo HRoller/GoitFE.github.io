@@ -9,7 +9,7 @@ body
       padding: 50px 45px 0px 45px; /* внутренние отступы сайта верх, право, низ, лево */
       margin: 0px auto 0px auto;  /* выравнивание по центру */
       box-shadow: 0px 0px 10px gray; /* небольшая тень для объемности */
-      background-color: white;  /* цвет фона в блоке Листа А4*/
+      background-color: white;  /* цвет фона в блоке Листа А4.*/
       font-family: Tahoma;
       font-size: 14px;
 
@@ -118,19 +118,19 @@ body
     }
 .t_down
     {       /* ячейка копирайта без ссылки */
-      display: block; /* рисуем ячейку внутри текст */
+      display: block; /* рисуем ячейку внутри текст . */
       color: black; /* цвет текста в стоке */
       text-decoration: none;
       padding: 10px 1px;
       text-align: center; /* выравниваем текст по центру ячейки */
     }
 
-.horiz_jachdown .h_adown:hover /* ячейки со ссылками */
+.horiz_jachdown .h_adown:hover /* ячейки со ссылками при наведении*/
     {   /* Цвет ячейки и текста при наведении мышки */
       background-color: #6f6f6f; /* Фон */
       color: black; /*Текст */
-      border-left: 1px solid #838383;
-      border-right: 1px solid #838383;
+      border-left: 1px solid #000000;
+      border-right: 1px solid #000000;
       }
 .horiz_jachdownt .t_down:hover /* ОСОБАЯ ячейка с Копирайтом ПРИ НАВЕДЕНИИ ! */
     {
