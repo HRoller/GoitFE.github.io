@@ -2,13 +2,11 @@
 <br>
 Консоль:
 <br>
-git clone https:    // 0) github.com/TurovetsAleksandr/TurovetsAleksandr.github.io // Копирую себе Репозиторий 
+<h3>git clone https:    // 0) github.com/TurovetsAleksandr/TurovetsAleksandr.github.io<h3> // Копирую себе Репозиторий 
 <br>
-cd frontend_test    // 1) Заходим в папку на кампе (уже скопированного с репозитория) 
+cd TurovetsAleksandr.github.io    // 1) Заходим в папку на кампе (уже скопированного с репозитория) 
 <br>
-3)Показать список всех файлов локального Гита на кампе (директории которой находимся) 
-<br>
-ls -la              // 2)Показать список всех файлов локального Гита на кампе (директории которой находимся) 
+ls -la              // 2)Показать список всех файлов локального Гита на кампе
 <br>
 git add .           // 3) Новое состояние (save) Git на кампе!
 <br>
