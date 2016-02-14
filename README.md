@@ -1,5 +1,5 @@
 <sltyle>
-P {text-sise:10pt}
+P {text-size:10pt}
 </slyle>
 
 Мои Домашние задания по http://goit.ua/
