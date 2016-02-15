@@ -1,0 +1,62 @@
+body
+    {
+    background-color: #f9f9f9;
+    z-index: 1;
+    } /* общий фон сайта */
+.A4
+    {
+      width: 960px;   /* ширина сайта*/
+      height: 883px; /* высота сайта*/
+      padding: 0px 0px 0px 0px; /* внутренние отступы сайта верх, право, низ, лево */
+      margin: 0px auto 0px auto;  /* выравнивание по центру */
+      border: 3px solid #535353;
+      box-shadow: 0px 0px 10px gray; /* небольшая тень для объемности */
+      font-family: Tahoma;
+      font-size: 14px;
+      z-index: 1;
+    }
+.centr
+    {
+      text-align: center;
+      text-indent: 0px;
+    }
+/*----------------------------------------------------------------------------*/
+.card IMG { position: relative; }
+.backgr { top: 0px; left: 0px; z-index: 0; }
+.palm { top: -880px; left: 151px; z-index: 1; filter: alpha(Opacity=50); opacity: 0.5;} 
+.logo { top: -925px; left: -120px; z-index: 2; }
+.slogan { top: -910px; left: -308px; z-index: 2; }
+
+.contacts { top: -940px; left: 300px; z-index:2;}
+.phone    { top: -930px; left: 150px; z-index:2;}
+.email    { top: -920px; left: 245px; z-index:2;}
+
+.copyright{top: -170px; left: -330px; z-index:2;}
+/*----------------------------------------------------------------------------*/
+.catalog
+    {
+      width: 900px;  /* ширина одной строки каталоога */
+    }
+
+.catalog li
+    {
+      display: inline-block;
+      width: 180px;
+      margin: 0 100px 250px 0; /* отступы между блоками */
+      vertical-align: top;
+      text-align: left;
+    }
+
+.catalog img
+    {
+      display: block;
+      margin-top: -800px;
+      margin-left: 75px;
+    }
+
+a
+    {
+      color: yellow;
+      z-index:1;
+    }  
+/*----------------------------------------------------------------------------*/
