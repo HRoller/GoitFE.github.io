@@ -29,18 +29,21 @@ body
 /* ______________________________________________________________________________________________ */
 .horiz_menu
     {    /* блок верхнего горизонтального меню */
-      display: table;
+      display: inline-block;
       width: 100%;
       border: 1px solid #222;
       padding: 0px;
+      background: #5b5b5b;
     }
 .horiz_jach
     {   /* метод отображения - таблица в строку, ширина и цвет ячейки верхнего меню в стоке */
       display: table-cell;
-      width: 75px;
+      width: 150px;
       background: #5b5b5b;
     }
-.h_a
+
+
+    .h_a
     {       /* ТЕКСТ/контент в ячейке верхнего меню */
       display: block;
       color: white;
@@ -96,16 +99,23 @@ body
 .horiz_menudown
     {    /* блок нижнего горизонтального меню */
 
-      display: table;
+      display: inline-block;
       width: 100%; /* штрина меню */
-      border: 1px solid #222; /* цвет обводки всего меню */
+      border: 0px solid #222; /* цвет обводки всего меню */
       padding: 0px;
     }
 .horiz_jachdown
     {
       display: table-cell; /* метод отображения по типу - таблица в строку, ширина и цвет ячейки нижнего меню */
-      width: 75px;  /* ширина каждой ячейки */
+      width: 150px;  /* ширина каждой ячейки */
       background: #c8c8c8; /* цвет заливки ячеек в стоковом состоянии */
+    }
+
+    .big
+    {
+      width: 460px;
+      text-align: right;
+      padding-right: 40px;
     }
 
 .h_adown
@@ -157,6 +167,7 @@ body
       float: right;
       text-align: left;
       padding-left: 280px;
+      padding-bottom: 100px;
     }
 .moove_down
     {
@@ -164,3 +175,7 @@ body
       text-align: center;
     }
 /* ______________________________________________E_N_D___________________________________________ */
+   a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    color: black;
+   } 

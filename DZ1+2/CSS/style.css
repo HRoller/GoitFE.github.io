@@ -17,8 +17,8 @@
 
     hr { /* горизонтальная линия */
       	border: none; /* Убираем границу */
-      	background-color: grey; /* Цвет линии */
-      	color: grey; /* Цвет линии для IE6-7 */
+      	background-color: gray; /* Цвет линии */
+      	color: gray; /* Цвет линии для IE6-7 */
       	height: 1px; /* Толщина линии */
       }
 
