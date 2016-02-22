@@ -137,17 +137,18 @@ body
 
 .horiz_jachdown .h_adown:hover /* ячейки со ссылками при наведении*/
     {   /* Цвет ячейки и текста при наведении мышки */
-      background-color: #6f6f6f; /* Фон */
+      background-color: #c8c8c8; /* Фон */
       color: black; /*Текст */
-      border-left: 1px solid #000000;
-      border-right: 1px solid #000000;
+      text-decoration: underline;
+/*      border-left: 1px solid #000000;
+      border-right: 1px solid #000000;*/
       }
 .horiz_jachdownt .t_down:hover /* ОСОБАЯ ячейка с Копирайтом ПРИ НАВЕДЕНИИ ! */
     {
       background-color: #c8c8c8; /* цвет ячейки при наведении */
       color: black; /* цвет текста при наведении */
-      border-left: 1px solid #838383;
-      border-right: 1px solid #838383;
+/*      border-left: 1px solid #838383;
+      border-right: 1px solid #838383;*/
     }
 /* _____________________________________________________________________________________________ */
 /* ______________________________________________________________________________________________ */
