@@ -3,7 +3,7 @@
 <p>
 Консоль:
 <p>
-git clone https:    // 0) github.com/TurovetsAleksandr/TurovetsAleksandr.github.io // Копирую себе Репозиторий 
+git clone https://github.com/TurovetsAleksandr/TurovetsAleksandr.github.io    // Копирую себе Репозиторий 
 <p>
 cd TurovetsAleksandr.github.io    // 1) Заходим в папку на кампе (уже скопированного с репозитория) 
 <p>
